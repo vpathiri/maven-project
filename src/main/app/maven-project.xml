@@ -49,6 +49,7 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
     </db:select>
     <set-property propertyName="content-type" value="application/json" doc:name="Property"/>
         <json:object-to-json-transformer doc:name="Object to JSON"/>
+        <logger message="Completed Successfully" level="INFO" category="com.bankofamerica.myteam.myapplication.retrieveFlights" doc:name="Logger"/>
   </flow>
 
 </mule>
